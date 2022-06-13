@@ -1,12 +1,4 @@
-body{
-    background-image:url("assets/img/feedback1.png");
-    margin: 0;
-    background-size: 30%, 40%;
-    background-position:left, right;
-    background-repeat:no-repeat;
-}
-
-  h1{
+h1{
     color: gray;
     font-size: 30px;
     font-weight: bold;
@@ -14,14 +6,32 @@ body{
     cursor: pointer;
     bottom: 50%;
   }
+
+  .image img{
+    margin-left: 0;
+    width: 65%;
+    position: absolute;
+  }
+
+  .image img:hover {
+    transform: scaleX(-1);
+  }
+
+  .form-content{
+    display: flex;
+    justify-content: space-between;
+ }
   
   .login {
-    margin: 5% 35%;
-    padding: 40px;
+    padding: 10% 2% 13.4% 2%;
+    /* padding-bottom: 13.4%; */
+    width: 35%;
+    height: 100%;
     background-color: gray;
     box-sizing: border-box;
     box-shadow: 0 15px 25px black;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    position: relative;
   }
   
   .login h2 {
