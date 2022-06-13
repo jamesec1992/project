@@ -1,0 +1,63 @@
+body{
+    background-image:url("assets/img/feedback1.png");
+    margin: 0;
+    background-size: 30%, 40%;
+    background-position:left, right;
+    background-repeat:no-repeat;
+}
+
+  h1{
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    bottom: 50%;
+  }
+  
+  .login {
+    margin: 5% 35%;
+    padding: 40px;
+    background-color: gray;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px black;
+    border-radius: 10px;
+  }
+  
+  .login h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .user-details {
+    position: relative;
+  }
+
+  .user-details input{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: transparent;
+  }
+
+  button{
+    border-radius: 20px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
